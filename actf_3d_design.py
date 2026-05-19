@@ -336,7 +336,7 @@ class ACTF3DDesigner:
         
         plt.tight_layout()
         plt.savefig('actf_complete_design.png', dpi=300, bbox_inches='tight', facecolor='#1a1a2e')
-        plt.show()
+        plt.close()
 
 def main():
     """Main function to run ACTF 3D design"""
