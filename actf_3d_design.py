@@ -284,7 +284,7 @@ class ACTF3DDesigner:
         
         plt.tight_layout()
         plt.savefig('actf_3d_design.png', dpi=300, bbox_inches='tight', facecolor='#1a1a2e')
-        plt.show()
+        plt.close()
         
     def create_single_view_design(self):
         """Create single comprehensive view"""
